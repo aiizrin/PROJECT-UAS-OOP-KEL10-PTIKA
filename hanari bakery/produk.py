@@ -34,7 +34,7 @@ class Croissant(Produk):
     def adon(self): print("Mengadon croissant dengan lipatan butter...")
     def kembangkan(self): print("Proses fermentasi croissant...")
     def panggang(self): print("Memanggang croissant...")
-    def topping(self): print("Menambahkan topping croissant...")
+    def topping(self): print("Menambahkan topping croissant..."
 
 class ButterCookies(Produk):
     def adon(self): print("Mengadon butter cookies...")
