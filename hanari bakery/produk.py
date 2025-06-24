@@ -24,7 +24,6 @@ class Produk(ProsesProduksi):
     def kembangkan(self):
         pass 
 
-
 class RotiManis(Produk):
     def adon(self): print("Mengadon adonan roti manis...")
     def kembangkan(self): print("Proses pengembangan roti manis...")
