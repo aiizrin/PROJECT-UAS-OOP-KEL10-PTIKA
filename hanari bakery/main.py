@@ -1,6 +1,6 @@
 from models.produk import RotiManis, Croissant, ButterCookies, Muffin
 from models.bahan_baku import BahanBaku
-from utils.estimasi import hitung_profit
+from estimasiprofit import hitung_profit
 
 produk_list = []
 stok_bahan = BahanBaku()
