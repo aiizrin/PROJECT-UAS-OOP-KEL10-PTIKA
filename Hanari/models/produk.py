@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class Produk(ABC):
     def __init__(self, kode, nama, bahan_baku, biaya_produksi, harga_jual, jumlah_n):
         self.kode = kode
